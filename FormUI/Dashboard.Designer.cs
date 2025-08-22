@@ -31,13 +31,14 @@
             peopleFoundListbox = new ListBox();
             lastNameText = new TextBox();
             lastNameLabel = new Label();
+            searchButton = new Button();
             SuspendLayout();
             // 
             // peopleFoundListbox
             // 
             peopleFoundListbox.FormattingEnabled = true;
             peopleFoundListbox.ItemHeight = 37;
-            peopleFoundListbox.Location = new Point(109, 143);
+            peopleFoundListbox.Location = new Point(109, 218);
             peopleFoundListbox.Name = "peopleFoundListbox";
             peopleFoundListbox.Size = new Size(526, 263);
             peopleFoundListbox.TabIndex = 0;
@@ -58,11 +59,22 @@
             lastNameLabel.TabIndex = 2;
             lastNameLabel.Text = "Last Name";
             // 
+            // searchButton
+            // 
+            searchButton.Location = new Point(271, 168);
+            searchButton.Name = "searchButton";
+            searchButton.Size = new Size(184, 44);
+            searchButton.TabIndex = 3;
+            searchButton.Text = "Search";
+            searchButton.UseVisualStyleBackColor = true;
+            searchButton.Click += searchButton_Click;
+            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(15F, 37F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1500, 832);
+            Controls.Add(searchButton);
             Controls.Add(lastNameLabel);
             Controls.Add(lastNameText);
             Controls.Add(peopleFoundListbox);
@@ -79,5 +91,6 @@
         private ListBox peopleFoundListbox;
         private TextBox lastNameText;
         private Label lastNameLabel;
+        private Button searchButton;
     }
 }

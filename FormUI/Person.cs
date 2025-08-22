@@ -14,5 +14,15 @@ namespace FormUI
         public string EmailAddress { get; set; }
         public string PhoneNumber { get; set; }
 
+        public string FullInfo
+        {
+            get 
+            {
+                // "Tim Corey (test@test.com)"
+                return $"{ FirstName} { LastName } ({EmailAddress})";
+            }
+        }
+
+
     }
 }
