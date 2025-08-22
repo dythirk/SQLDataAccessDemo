@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|c:\\users\\thai\\desktop\\repos\\sqldataaccessdemo\\formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|solutionrelative:formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|c:\\users\\thai\\desktop\\repos\\sqldataaccessdemo\\formui\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|solutionrelative:formui\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|c:\\users\\thai\\desktop\\repos\\sqldataaccessdemo\\formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|solutionrelative:formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,25 +49,21 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DataAccess.cs",
               "DocumentMoniker": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\FormUI\\DataAccess.cs",
               "RelativeDocumentMoniker": "FormUI\\DataAccess.cs",
               "ToolTip": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\FormUI\\DataAccess.cs",
               "RelativeToolTip": "FormUI\\DataAccess.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBUAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T03:51:09.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\FormUI\\Dashboard.cs",
               "RelativeDocumentMoniker": "FormUI\\Dashboard.cs",
@@ -88,8 +84,7 @@
               "RelativeToolTip": "FormUI\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-08-22T03:08:56.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T03:08:56.002Z"
             },
             {
               "$type": "Document",
@@ -101,8 +96,7 @@
               "RelativeToolTip": "FormUI\\FormUI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-22T03:03:26.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T03:03:26.776Z"
             },
             {
               "$type": "Document",
@@ -114,8 +108,7 @@
               "RelativeToolTip": "FormUI\\Helper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T02:51:52.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T02:51:52.523Z"
             },
             {
               "$type": "Document",
@@ -127,8 +120,11 @@
               "RelativeToolTip": "FormUI\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T02:21:43.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T02:21:43.825Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
