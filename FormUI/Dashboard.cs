@@ -24,5 +24,16 @@ namespace FormUI
             UpdateBinding();
 
         }
+
+        private void emailAddressInsLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void insertRecordButton_Click(object sender, EventArgs e)
+        {
+            DataAccess db = new DataAccess();
+
+        }
     }
 }
