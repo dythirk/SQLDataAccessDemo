@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|c:\\users\\thai\\desktop\\repos\\sqldataaccessdemo\\formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|solutionrelative:formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|c:\\users\\thai\\desktop\\repos\\sqldataaccessdemo\\formui\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|solutionrelative:formui\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|c:\\users\\thai\\desktop\\repos\\sqldataaccessdemo\\formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|solutionrelative:formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B517219-213E-4A33-8149-BA1454005F97}|FormUI\\FormUI.csproj|C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\formui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,24 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\FormUI\\Dashboard.cs",
-              "RelativeDocumentMoniker": "FormUI\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\FormUI\\Dashboard.cs",
-              "RelativeToolTip": "FormUI\\Dashboard.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T10:28:40.8Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -64,12 +51,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\FormUI\\Dashboard.cs",
+              "RelativeDocumentMoniker": "FormUI\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\FormUI\\Dashboard.cs",
+              "RelativeToolTip": "FormUI\\Dashboard.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T10:28:40.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DataAccess.cs",
               "DocumentMoniker": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\FormUI\\DataAccess.cs",
               "RelativeDocumentMoniker": "FormUI\\DataAccess.cs",
               "ToolTip": "C:\\Users\\Thai\\Desktop\\repos\\SQLDataAccessDemo\\FormUI\\DataAccess.cs",
               "RelativeToolTip": "FormUI\\DataAccess.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBUAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T03:51:09.287Z",
               "EditorCaption": ""
@@ -120,8 +120,7 @@
               "RelativeToolTip": "FormUI\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T02:21:43.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T02:21:43.825Z"
             },
             {
               "$type": "Bookmark",
