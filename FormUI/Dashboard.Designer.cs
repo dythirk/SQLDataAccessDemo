@@ -28,20 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
+            peopleFoundListbox = new ListBox();
+            lastNameText = new TextBox();
+            lastNameLabel = new Label();
             SuspendLayout();
+            // 
+            // peopleFoundListbox
+            // 
+            peopleFoundListbox.FormattingEnabled = true;
+            peopleFoundListbox.ItemHeight = 37;
+            peopleFoundListbox.Location = new Point(109, 143);
+            peopleFoundListbox.Name = "peopleFoundListbox";
+            peopleFoundListbox.Size = new Size(526, 263);
+            peopleFoundListbox.TabIndex = 0;
+            // 
+            // lastNameText
+            // 
+            lastNameText.Location = new Point(431, 65);
+            lastNameText.Name = "lastNameText";
+            lastNameText.Size = new Size(204, 43);
+            lastNameText.TabIndex = 1;
+            // 
+            // lastNameLabel
+            // 
+            lastNameLabel.AutoSize = true;
+            lastNameLabel.Location = new Point(109, 65);
+            lastNameLabel.Name = "lastNameLabel";
+            lastNameLabel.Size = new Size(147, 38);
+            lastNameLabel.TabIndex = 2;
+            lastNameLabel.Text = "Last Name";
             // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(15F, 37F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1500, 832);
+            Controls.Add(lastNameLabel);
+            Controls.Add(lastNameText);
+            Controls.Add(peopleFoundListbox);
             Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Margin = new Padding(6, 6, 6, 6);
+            Margin = new Padding(6);
             Name = "Dashboard";
             Text = "SQL Data Access Demo";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private ListBox peopleFoundListbox;
+        private TextBox lastNameText;
+        private Label lastNameLabel;
     }
 }
