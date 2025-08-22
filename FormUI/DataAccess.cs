@@ -33,8 +33,8 @@ namespace FormUI
             using (IDbConnection connection = new SqlConnection(Helper.CnnVal("SampleDB")))
             {
                 // INITIALIZATION VARIANT
-                //Person newPerson = new Person();
 
+                //Person newPerson = new Person();
                 //newPerson.FirstName = firstName;
 
                 Person newPerson = new Person { FirstName = firstName, LastName = lastName, EmailAddress = emailAddress, PhoneNumber = phoneNumber};
@@ -43,13 +43,12 @@ namespace FormUI
                 people.Add(newPerson);
 
 
-
-
                 // SUPER EFFICIENT VARIANT
 
                 //List<Person> people = new List<Person>();
                 //people.Add(new Person { FirstName = firstName, LastName = lastName, EmailAddress = emailAddress, PhoneNumber = phoneNumber });
 
+                connection.Execute("dbo.People_Insert @FirstName, @LastName, @EmailAddress, @PhoneNumber", people)
             }
         }
     }
