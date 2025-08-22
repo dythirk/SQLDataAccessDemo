@@ -6,6 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
+      "FormUI/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.66",
+          "System.Data.SqlClient": "4.9.0"
+        },
+        "runtime": {
+          "FormUI.dll": {}
+        }
+      },
       "Dapper/2.1.66": {
         "runtime": {
           "lib/net8.0/Dapper.dll": {
@@ -76,6 +85,11 @@
     }
   },
   "libraries": {
+    "FormUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Dapper/2.1.66": {
       "type": "package",
       "serviceable": true,

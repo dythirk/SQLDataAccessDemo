@@ -13,9 +13,11 @@ namespace FormUI
     {
         public List<Person> GetPeople(string lastName)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("SampleDB")))
+            using (IDbConnection connection = new SqlConnection(Helper.CnnVal("SampleDB")))
             {
-                return connection.Query<Person>($"select * from People where LastName = '{ lastName }'").ToList();
+                var output = connection.Query<Person>($"select * from People where LastName = '{ lastName }'").ToList();
+
+                return output;
 
             }
 
